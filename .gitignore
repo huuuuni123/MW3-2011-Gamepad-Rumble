@@ -1,0 +1,18 @@
+# build output
+dist/
+*.asi
+*.dll
+*.exe
+*.obj
+*.pdb
+.zig-cache/
+zig-cache/
+zig-out/
+
+# runtime logs
+*.log
+
+# never commit game files or memory dumps
+*.bin
+*.mem
+*.pkl
