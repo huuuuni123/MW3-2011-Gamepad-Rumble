@@ -30,6 +30,10 @@
 
 끝! 게임을 실행하면 한글 + 패드 + 진동이 모두 작동합니다.
 
+### 테스트 완료 ✅
+- **싱글플레이 캠페인 전체를 처음부터 끝까지 클리어**하며 한글 + 패드 + 진동이 문제없이 작동하는 것을 확인했습니다.
+- 사용 패드: **Xbox 컨트롤러**, **GameSir G7 Pro**
+
 ### 진동 설정
 `MW3Rumble.ini`를 메모장으로 열어 숫자만 바꾸세요 (게임 재시작 필요).
 - `Strength=1.0` — 전체 세기. `0`이면 진동 끔
@@ -67,6 +71,10 @@ Makes the Korean translation patch and MW3GamepadFix work together (the Korean t
 3. This mod → grab `MW3-2011-Gamepad-Rumble-v1.0.zip` from [Releases](../../releases/latest), extract into the game folder (overwriting `winmm.dll` is fine — same file)
 
 Game folder = where `iw5sp.exe` lives. Done — launch the game.
+
+### Tested ✅
+- **Played through the entire single-player campaign** with Korean patch + gamepad + rumble — no issues.
+- Controllers: **Xbox controller**, **GameSir G7 Pro**
 
 ### Rumble settings
 Edit `MW3Rumble.ini`, restart the game. `Strength=0` turns rumble off; `Fire`, `Explosion`, `Damage`, `Shake`, `Landing` scale each effect. Output is XInput — enable Steam Input for PlayStation pads.

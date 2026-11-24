@@ -19,6 +19,10 @@ MW3 2011 Gamepad + 진동 완벽 호환 모드
                 -> 압축 풀어 게임 폴더에 복사
 3. 이 압축파일의 파일 전부를 게임 폴더에 복사 (winmm.dll 덮어쓰기 = 예)
 
+[테스트 완료]  캠페인 전체 클리어까지 문제없이 작동 확인
+               사용 패드: Xbox 컨트롤러, GameSir G7 Pro
+               (Tested: full campaign playthrough - Xbox controller, GameSir G7 Pro)
+
 [진동 설정]  MW3Rumble.ini 수정 후 게임 재시작. Strength=0 이면 진동 끔.
 [제거]       MW3KoreanBridge.asi, MW3Rumble.asi, MW3Rumble.ini 삭제.
 
