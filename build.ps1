@@ -1,7 +1,7 @@
 ﻿# Builds both ASI plugins into .\dist using Zig (https://ziglang.org).
 #   winget install zig.zig
 #   .\build.ps1                                  -> dist\*.asi + MW3Rumble.ini
-#   .\build.ps1 -AsiLoader <path\to\winmm.dll>   -> also dist\MW3-SP-Mods-v<Version>.zip
+#   .\build.ps1 -AsiLoader <path\to\winmm.dll>   -> also dist\MW3-2011-Gamepad-Rumble-v<Version>.zip
 # The release zip holds everything a player copies next to iw5sp.exe. Ultimate ASI Loader
 # (ThirteenAG, MIT, x64 9.7.4 - the same winmm.dll MW3GamepadFix ships) is not kept in git.
 param(
@@ -39,9 +39,9 @@ if ($AsiLoader) {
               (Join-Path $dist 'MW3Rumble.ini') $stage
     Copy-Item $AsiLoader (Join-Path $stage 'winmm.dll')
     Copy-Item (Join-Path $root 'licenses\Ultimate-ASI-Loader.txt') (Join-Path $stage 'licenses')
-    Copy-Item (Join-Path $root 'LICENSE') (Join-Path $stage 'licenses\MW3-SP-Mods.txt')
+    Copy-Item (Join-Path $root 'LICENSE') (Join-Path $stage 'licenses\MW3-2011-Gamepad-Rumble.txt')
     Copy-Item (Join-Path $root 'config\README.txt') $stage
-    $zip = Join-Path $dist "MW3-SP-Mods-v$Version.zip"
+    $zip = Join-Path $dist "MW3-2011-Gamepad-Rumble-v$Version.zip"
     if (Test-Path $zip) { Remove-Item $zip }
     Compress-Archive -Path (Join-Path $stage '*') -DestinationPath $zip
     Write-Host "packaged $zip"

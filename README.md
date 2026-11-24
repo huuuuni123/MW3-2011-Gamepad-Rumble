@@ -1,4 +1,4 @@
-# MW3 SP Mods
+# MW3 2011 Gamepad + 진동 완벽 호환 모드
 
 **Call of Duty: Modern Warfare 3 (2011) 싱글플레이 · Steam** — 한글패치 + 패드 모드 호환 브리지 & 패드 진동
 
@@ -14,7 +14,7 @@
 ### 설치 (3단계)
 1. **한글패치** 설치 → [gamemixblog 님 블로그](https://blog.naver.com/gamemixblog/222982734386)
 2. **패드 모드** 설치 → [MW3GamepadFix-0.8.9-ASI.zip 바로 받기](https://github.com/TheTronuo/MW3GamepadFix/releases/download/v0.8.9/MW3GamepadFix-0.8.9-ASI.zip) 압축 풀어 게임 폴더에 복사
-3. **이 모드** 설치 → [Releases](../../releases/latest)에서 `MW3-SP-Mods-v1.0.zip` 받아 압축 풀어 게임 폴더에 복사
+3. **이 모드** 설치 → [Releases](../../releases/latest)에서 `MW3-2011-Gamepad-Rumble-v1.0.zip` 받아 압축 풀어 게임 폴더에 복사
    (`winmm.dll` 덮어쓰기 물으면 **예** — 같은 파일입니다)
 
 게임 폴더 = `iw5sp.exe`가 있는 곳. 보통 `C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Modern Warfare 3`
@@ -48,7 +48,7 @@ Makes the Korean translation patch and MW3GamepadFix work together (the Korean t
 ### Install
 1. Korean patch → [gamemixblog](https://blog.naver.com/gamemixblog/222982734386) (skip if you play in English)
 2. Gamepad mod → [download MW3GamepadFix-0.8.9-ASI.zip](https://github.com/TheTronuo/MW3GamepadFix/releases/download/v0.8.9/MW3GamepadFix-0.8.9-ASI.zip), extract into the game folder
-3. This mod → grab `MW3-SP-Mods-v1.0.zip` from [Releases](../../releases/latest), extract into the game folder (overwriting `winmm.dll` is fine — same file)
+3. This mod → grab `MW3-2011-Gamepad-Rumble-v1.0.zip` from [Releases](../../releases/latest), extract into the game folder (overwriting `winmm.dll` is fine — same file)
 
 Game folder = where `iw5sp.exe` lives. Done — launch the game.
 

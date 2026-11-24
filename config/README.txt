@@ -1,4 +1,4 @@
-MW3 SP Mods - 한글패치 + 패드 모드 호환 & 패드 진동
+MW3 2011 Gamepad + 진동 완벽 호환 모드
 (세 모드가 서로 충돌하지 않도록 포팅했습니다)
 =====================================================
 
@@ -21,4 +21,4 @@ MW3 SP Mods - 한글패치 + 패드 모드 호환 & 패드 진동
 - MW3GamepadFix - TheTronuo
 - Ultimate ASI Loader - ThirteenAG (MIT, licenses 폴더)
 - Code - Claude (Anthropic) / Idea & testing - huuuuni123
-https://github.com/huuuuni123/MW3-SP-Mods
+https://github.com/huuuuni123/MW3-2011-Gamepad-Rumble
