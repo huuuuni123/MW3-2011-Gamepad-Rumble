@@ -36,6 +36,11 @@ Move winmm.dll out of the game folder before playing multiplayer.
 1. (optional) Korean patch   2. MW3GamepadFix 0.8.9 (link above)
 3. Copy every file in this zip next to iw5sp.exe (overwrite winmm.dll = yes)
 
+[빅 샤라웃 / Big shout-out]
+- Infinity Ward & Activision Blizzard - 명작 MW3를 만들어 줘서 고맙습니다! Thanks for MW3!
+- TheTronuo - MW3GamepadFix 덕분에 패드로 즐길 수 있습니다. Huge thanks!
+  (감사 인사일 뿐, 이 모드는 위 회사·제작자와 무관합니다 / not affiliated or endorsed)
+
 [크레딧 / Credits]
 - 한글패치 Korean patch - gamemixblog
 - MW3GamepadFix - TheTronuo

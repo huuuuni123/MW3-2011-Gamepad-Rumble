@@ -87,6 +87,14 @@ Attach `MW3KoreanBridge.log` / `MW3Rumble.log` from the game folder to an issue.
 
 ---
 
+## Big shout-out / 빅 샤라웃 📣
+- **Infinity Ward & Activision Blizzard** — for making Modern Warfare 3, a campaign still worth playing start to finish in 2026. Thank you!
+  명작 MW3를 만들어 준 인피니티 워드와 액티비전 블리자드에 감사드립니다. 지금 다시 해도 캠페인 처음부터 끝까지 재밌습니다!
+- **[TheTronuo](https://github.com/TheTronuo)** — MW3GamepadFix is what made playing on a controller possible at all. This mod just tries to play nicely with it. Huge thanks!
+  패드로 MW3를 즐길 수 있게 해 준 건 TheTronuo 님의 MW3GamepadFix 덕분입니다. 이 모드는 거기에 얹혀 갈 뿐이에요. 정말 감사합니다!
+
+<sub>This shout-out is a thank-you only; this project is not affiliated with or endorsed by Infinity Ward, Activision Blizzard or TheTronuo. / 감사 인사일 뿐이며, 이 프로젝트는 위 회사·제작자와 무관합니다.</sub>
+
 ## Credits / 크레딧 🙏
 - **MW3 한글패치 / Korean patch** — [gamemixblog](https://blog.naver.com/gamemixblog/222982734386)
 - **[MW3GamepadFix](https://github.com/TheTronuo/MW3GamepadFix)** — **TheTronuo**
