@@ -228,6 +228,16 @@ static void install(void)
         logf("d3d9.dll not loaded; nothing to do");
         return;
     }
+    // The Korean patch is a d3d9.dll proxy in the game folder. If d3d9 came from
+    // anywhere else (System32), there is no Korean patch to chain: stay out of the way.
+    char exeDir[MAX_PATH], d3dPath[MAX_PATH];
+    GetModuleFileNameA(NULL, exeDir, MAX_PATH);
+    GetModuleFileNameA(d3d, d3dPath, MAX_PATH);
+    char *e = strrchr(exeDir, '\\'), *d = strrchr(d3dPath, '\\');
+    if (!e || !d || (e - exeDir) != (d - d3dPath) || _strnicmp(exeDir, d3dPath, (size_t)(e - exeDir)) != 0) {
+        logf("no Korean patch (d3d9 from %s); nothing to do", d3dPath);
+        return;
+    }
     g_real = (D3DCreate9_t)GetProcAddress(d3d, "Direct3DCreate9");
     if (!g_real) {
         logf("Direct3DCreate9 not found");
@@ -253,6 +263,10 @@ BOOL WINAPI DllMain(HINSTANCE inst, DWORD reason, LPVOID reserved)
     if (reason == DLL_PROCESS_ATTACH) {
         DisableThreadLibraryCalls(inst);
         GetModuleFileNameA(NULL, g_logPath, MAX_PATH);
+        // Single-player only: never touch any other process (e.g. iw5mp.exe, which is VAC-protected).
+        const char *nm = strrchr(g_logPath, '\\');
+        nm = nm ? nm + 1 : g_logPath;
+        if (_stricmp(nm, "iw5sp.exe") != 0) return TRUE;
         char *s = strrchr(g_logPath, '\\');
         if (s) strcpy(s + 1, "MW3KoreanBridge.log");
         else strcpy(g_logPath, "MW3KoreanBridge.log");

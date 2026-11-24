@@ -40,7 +40,8 @@ if ($AsiLoader) {
     Copy-Item $AsiLoader (Join-Path $stage 'winmm.dll')
     Copy-Item (Join-Path $root 'licenses\Ultimate-ASI-Loader.txt') (Join-Path $stage 'licenses')
     Copy-Item (Join-Path $root 'LICENSE') (Join-Path $stage 'licenses\MW3-2011-Gamepad-Rumble.txt')
-    Copy-Item (Join-Path $root 'config\README.txt') $stage
+    Copy-Item (Join-Path $root 'config\README.txt') (Join-Path $stage 'MW3-Gamepad-Rumble-README.txt')
+    Copy-Item (Join-Path $root 'config\Uninstall.bat') $stage
     $zip = Join-Path $dist "MW3-2011-Gamepad-Rumble-v$Version.zip"
     if (Test-Path $zip) { Remove-Item $zip }
     Compress-Archive -Path (Join-Path $stage '*') -DestinationPath $zip
