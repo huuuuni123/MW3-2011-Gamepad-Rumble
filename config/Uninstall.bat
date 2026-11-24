@@ -7,7 +7,7 @@ if not exist iw5sp.exe (
   exit /b 1
 )
 echo.
-echo  MW3 2011 Gamepad + 진동 완벽 호환 모드를 제거합니다.
+echo  MW3 2011 Gamepad + 진동 완벽 호환 모드를 제거합니다. / Uninstalling MW3 2011 Gamepad + Rumble Full Compatibility Mod.
 echo  Removes this mod. 한글패치와 패드 모드는 그대로 둡니다. / Korean patch and MW3GamepadFix are kept.
 echo.
 choice /c YN /m "계속할까요? Continue"

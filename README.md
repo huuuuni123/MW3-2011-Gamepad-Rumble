@@ -1,4 +1,5 @@
 # MW3 2011 Gamepad + 진동 완벽 호환 모드
+### MW3 2011 Gamepad + Rumble Full Compatibility Mod
 
 **Call of Duty: Modern Warfare 3 (2011) 싱글플레이 · Steam** — 한글패치 + 패드 모드 호환 브리지 & 패드 진동
 
